@@ -8,7 +8,7 @@ import {HttpImageService} from "../http/http-image.service";
 })
 export class ImageComponent implements OnInit {
 
-  public imageUrl: string = 'api/';
+  public imageUrl: string;
   public ids: number[] = [];
 
   constructor(private httpImageService: HttpImageService) { }
